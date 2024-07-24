@@ -97,4 +97,11 @@ const remover = () => {
     } else {
         console.log('Falha na remoção!');
     }
+};
+
+module.exports = {
+    criar,
+    atualizar,
+    listar,
+    remover,
 }
